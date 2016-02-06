@@ -5,6 +5,9 @@ After much negative experience with Android GPS tracking (battery usage, bad
 reception) I decided to build my own dedicated GPS tracker despite the fact that
 multiple similar devices are readily available on the market.
 
+
+
+
 Selected components
 ----------------------
 
@@ -15,6 +18,7 @@ Selected components
   * USB connections for charging and downloading data
   * SPI serial flash for data storage (8Mbit/16Mbt)
   * 600mAh 3.7V LiPo cell
+
 
 
 Battery and memory size
@@ -35,3 +39,40 @@ The following items will be saved:
 Which gives 16 bytes for a single point or 65536 points in a 1MB flash memory.
 Considering 5 second logging interval (should be enough fir hiking), the flash
 memory should suffice for 91 hours of logging, which is nearly 4 days.
+
+
+
+Project status
+------------------
+
+As of 2016-02-06, basic requirements are determined and the schematic is ready.
+Board layout is WIP.
+
+
+
+Bill of materials
+----------------------
+
+TODO
+
+
+
+Schematic and layout pictures
+----------------------------------
+
+[schematic](doc/schematic.png)
+
+
+
+Prototype photos
+-------------------
+
+TODO
+
+
+
+Resources
+--------------
+
+You can access the schematic/layout files and firmware at
+[https://github.com/iqyx/lcd-gps-tracker](https://github.com/iqyx/lcd-gps-tracker)
